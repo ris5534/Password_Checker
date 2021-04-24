@@ -7,7 +7,7 @@ if len(password) <= 6:
 
 for character in password:
     if character.isdigit():
-      print("There is a number in the password")
-      break
-    else:
-      print("No Digit in password")
+        print("There is a number in the password")
+        break
+else:
+    print("No Digit in password")
